@@ -1,10 +1,4 @@
-# apstrahub-configpack-example
-
+# Interface Flap Config Pack
 This repository contains an ApstraHub ConfigPack.
-
-ConfigPack documentation intended for end users is required to appear [here, in the README.md file in the `pack` directory](./pack/README.md). Check that file for details about this ConfigPack.
-
-This file is strictly boilerplate from the [config-pack-example repo](https://github.com/chrismarget-j/apstrahub),
-but a pack author/publisher may choose to modify it as they work through the
-[publisher documentation](https://github.com/chrismarget-j/apstrahub-configpack-example/blob/main/publisher_guide/README.md)
-to give additional context to readers browsing the ConfigPack on GitHub. 
+If you want to know more about what this pack does, please navigate to pack/README.md
+If you want to access the terraform/tofu config files that are part of this pack, please navigate to pack/tofu.
