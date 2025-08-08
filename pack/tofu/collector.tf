@@ -3,9 +3,9 @@ resource "apstra_raw_json" "collector" {
     apstra_raw_json.service_registry
   ]
   url = "/api/telemetry/collectors"
-  id = "Interface_Flap"
+  id = "Interface_Flap_${var.blueprint_id}"
   payload = jsonencode({
-    service_name = "Interface_Flap",
+    service_name = "Interface_Flap_${var.blueprint_id}",
     collectors = [
       {
         platform = {
