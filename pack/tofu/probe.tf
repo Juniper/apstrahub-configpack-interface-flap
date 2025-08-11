@@ -12,7 +12,7 @@ resource "apstra_raw_json" "probe" {
           "name": "Interface_Flap",
           "type": "extensible_data_collector",
           "properties": {
-            "service_name": "Interface_Flap_${var.blueprint_id}",
+            "service_name": "${var.name}",
             "service_interval": "60",
             "value_map": {},
             "graph_query": [
