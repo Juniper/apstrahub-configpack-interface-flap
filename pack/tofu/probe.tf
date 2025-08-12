@@ -5,7 +5,7 @@ resource "apstra_raw_json" "probe" {
   ]
   payload   = <<-EOT
   {
-      "label": "Interface Flap",
+      "label": "${var.name}",
       "description": "",
       "processors": [
         {
