@@ -14,7 +14,7 @@ variable "name" {
     condition = strcontains(var.name, "/[^a-zA-Z0-9_]/") == false
     error_message = "The name must only have letters, numbers and _"
   }
-  default = "Interface_Flap"
+ default = "Interface_Flap"
 }
 
 
